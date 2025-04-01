@@ -18,4 +18,5 @@
 .header__nav li {
     color: var(--c-neutral);
     font-size: 1.125rem;
+    font-weight: var(--w-text-medium);
 }

@@ -12,6 +12,14 @@
     --c-accent: #3882F6;
 
     --w-text-heavy: 900;
+    --w-text-medium: 400;
+    --w-text-medium-heavy: 600;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -29,6 +37,16 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+button {
+    background-color: var(--c-accent);
+    color: var(--c-light);
+    font-size: 1rem;
+    font-weight: var(--w-text-medium-heavy);
+    text-align: center;
+    padding: 0.5rem 2rem;
+    border-radius: 8px;
 }
 
 .vertical-list {
