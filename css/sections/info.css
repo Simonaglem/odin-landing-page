@@ -1,0 +1,13 @@
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info__content {
+    display: flex;
+}
+
+.info__item img {
+    max-width: 200px;
+    height: auto;
+}

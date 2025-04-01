@@ -1,0 +1,46 @@
+@import url("sections/header.css");
+@import url("sections/hero.css");
+@import url("sections/info.css");
+@import url("sections/quote.css");
+@import url("sections/cta.css");
+@import url("sections/footer.css");
+
+:root {
+    --c-dark: #1F2937;
+    --c-neutral: #E5E7EB;
+    --c-light: #F9FAF8;
+    --c-accent: #3882F6;
+
+    --w-text-heavy: 900;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.vertical-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    gap: 1rem; 
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}

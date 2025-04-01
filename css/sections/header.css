@@ -1,0 +1,21 @@
+.header {
+    background-color: var(--c-dark);
+    color: var(--c-light);
+    padding: 1rem 20%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 1.5rem;
+    font-weight: var(--w-text-heavy);
+    margin-right: auto;
+}
+
+.header__nav li {
+    color: var(--c-neutral);
+    font-size: 1.125rem;
+}
