@@ -1,7 +1,32 @@
 .cta {
+    padding: 5rem 20%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cta__card {
+    width: 100%;
+    padding: 3rem 4rem;
+    background-color: var(--c-accent);
+    color: var(--c-light);
+    border-radius: 8px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.cta__card button {
+    border: 0.175rem solid var(--c-light);
+}
+
+.cta__text h2 {
+    font-size: 1.175rem;
+    font-weight: var(--w-text-heavy);
+}
+
+.cta__text p {
+    font-size: 1.125rem;
+    font-weight: var(--w-text-medium);
 }
