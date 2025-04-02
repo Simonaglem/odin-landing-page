@@ -1,4 +1,26 @@
 .quote {
+    background-color: var(--c-neutral);
+    color: var(--c-dark);
+    padding: 6rem 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.quote__content {
+    max-width: 800px;
     display: flex;
     flex-direction: column;
+    gap: 2rem;
+}
+
+.quote__text {
+    font-size: 2.25rem;
+    font-weight: var(--w-text-medium-light);
+    align-self: start;
+}
+
+.quote__author {
+    font-size: 1.125rem;
+    font-weight: var(--w-text-heavy);
+    align-self: end;
 }
